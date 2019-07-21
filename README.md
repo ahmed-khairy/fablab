@@ -2,9 +2,11 @@
 
 ## This is the repository for Gharbiya school FabLab, it will include the following
 
+## Machines
 - Machines status and what can we made with it
 - latest projects on each machine and how to do it
-- what is the basic knowlege you need to work on each machine
-- materials condition
-- new challenges
-- fablab team updates
+- what is the minimum knowlege you need to work on each machine
+
+## materials condition
+## new challenges
+## fablab team updates
