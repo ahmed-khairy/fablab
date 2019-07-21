@@ -3,9 +3,11 @@
 ## jekyll
 
 ###  What is jekyll
-    Jekyll is a simple, extendable, static site generator. You give it text written in your favorite markup language and it churns through layouts to create a static website.
+
+` Jekyll is a simple, extendable, static site generator. You give it text written in your favorite markup language and it churns through layouts to create a static website.`
 
 ### How to install
+
 - `sudo gem install bundler jekyll`
 - `sudo gem update --system`
 - `bundle install`
@@ -16,9 +18,11 @@
 ## pandoc
 
 ### what is pandoc
-    If you need to convert files from one markup format into another, pandoc is your swiss-army knife
+
+`If you need to convert files from one markup format into another, pandoc is your swiss-army knife`
 
 ### how to install
+
 - `sudo apt-get update`
 - `sudo apt-get install pandoc`
 - `apt install dpkg`
@@ -31,7 +35,7 @@
 
 ### What is mkdocs
 
-    MkDocs is a fast, simple and downright gorgeous static site generator that's geared towards building project documentation. Documentation source files are written in Markdown, and configured with a single YAML configuration file.
+`MkDocs is a fast, simple and downright gorgeous static site generator that's geared towards building project documentation. Documentation source files are written in Markdown, and configured with a single YAML configuration file.`
 
 ### How to install
 
@@ -44,7 +48,7 @@
 
 ### What is gohugo
 
-    Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.
+`Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.`
 
 ### how to install
 
