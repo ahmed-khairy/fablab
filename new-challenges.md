@@ -60,6 +60,7 @@ if problems happend
         ![change](change.png)
     5. On the theme selection page, review your theme options. To choose a theme, click the theme you want and then click Select theme  
     ![select](select.png)
+    
 
 ## pandoc
 
