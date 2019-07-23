@@ -33,64 +33,33 @@ if problems happend
 - `bundle exec jekyll serve`
 
 ### How to work
-- Working with github pages
-    - GitHub Pages is available in public repositories with GitHub Free, and in public and private repositories with GitHub Pro, GitHub Team, GitHub Enterprise Cloud, and GitHub Enterprise Server.
-    - You can set up a local version of your Jekyll GitHub Pages site to test changes to your site locally.
-    - Requirements
-        - We recommend using Bundler to install and run Jekyll, Bundler manages Ruby gem dependencies, reduces Jekyll build errors, and prevents environment-related bugs.
-        - To install Bundler, you must install Ruby
-            1. Open Terminal
-            2. Check whether you have Ruby 2.1.0 or higher installed  
-            `ruby --version`
-            3. If you don't have Ruby installed  
-            [install Ruby 2.1.0 or higher](https://www.ruby-lang.org/en/downloads/).
-            4. Install Bundler  
-            `gem install bundler`
-        - Create a local repository for your Jekyll site
-            1. If you haven't already downloaded Git, install it.
-            2. Open Terminal.
-            On your local computer, initialize a new Git repository for your Jekyll site  
-            `git init JEKYLL-SITE-REPOSITORY-NAME`  
-            3. Change directories to the new repository you created  
-            `cd JEKYLL-SITE-REPOSITORY-NAME`
-        - Install Jekyll using Bundler
-            - To track your site's dependencies, Ruby will use the contents of your Gemfile to build your Jekyll site
-            1. Check to see if you have a Gemfile in your local Jekyll site repository  
-            `ls`
-            2. If you don't have a Gemfile, open your favorite text editor, such as Atom, and add these lines to a new file: `source 'https://rubygems.org'`
-            `gem 'github-pages', group: :jekyll_plugins`
-            3. Name the file Gemfile and save it to the root directory of your local Jekyll site repository.
-            4. Install Jekyll and other dependencies from the GitHub Pages gem  
-            `bundle install`
-        - Generate Jekyll site files (optional)
-            - To build your Jekyll site locally, preview your site changes, and troubleshoot build errors, you must have Jekyll site files on your local computer. You may already have Jekyll site files on your local computer if you cloned a Jekyll site repository
-            - If you don't have a Jekyll site downloaded, you can generate Jekyll site files for a basic Jekyll template site in your local repository
-            - If you want to use an existing Jekyll site repository on GitHub as the starting template for your Jekyll site, fork and clone the Jekyll site repository on GitHub to your local computer
-            1. If you don't already have a Jekyll site on your local computer, create a Jekyll template site in a new directory  
-            `bundle exec jekyll _3.3.0_ new NEW-JEKYLL-SITE-REPOSITORY-NAME`
-            2. Navigate into your new site directory  
-            `cd NEW-JEKYLL-SITE-REPOSITORY-NAME`
-            3. Edit your Gemfile and remove the following line  
-            ` "jekyll", "3.3.0"`
-            4. In the Gemfile, delete the # at the beginning of this line  
-            `gem "github-pages", group: :jekyll_plugins`
-            5. Initialize your site directory as a Git repository  
-            `git init`
-            6. Connect your remote repository on GitHub to your local repository for your GitHub Pages site.  
-            `git remote add origin https://github.com/username-or-organization-name/your-remote-repository-name`
-            
-
-#### Test
-
-- gem install jekyll bundler
-- jekyll new myblog
-- cd myblog
-- bundle exec jekyll serve
-- run a local host from a website
-
-####
-
-- 
+- Working with github pages      
+    GitHub Pages is available in public repositories with GitHub Free, and in public and private repositories with GitHub Pro, GitHub Team, GitHub Enterprise Cloud, and GitHub Enterprise Server.
+    1. Create a repository  
+        Head over to GitHub and create a new repository named username.github.io, where username is your username (or organization name) on GitHub
+    2. Clone the repository  
+    `git clone https://github.com/username/username.github.io`
+    3. Enter the project folder and add an index.html file  
+    `cd username.github.io`
+    `echo "Hello World" > index.html`
+    4. Add, commit, and push your changes  
+    `git add --all`  
+    `git commit -m "Initial commit"`  
+    `git push -u origin master`
+    5. Fire up a browser and go to https://username.github.io  
+    ![first webpage](first.png)
+- Jekyll themes on GitHub
+    1. If you don't already have a repository for your GitHub Pages site, create a new repository with a README.
+    2. Navigate to your GitHub Pages site's repository
+    3. Under your repository name, click Settings  
+    ![repo](repo.png)
+    4. On the settings page, scroll down and under "GitHub Pages"  
+        - Click Choose a theme to add a theme to your site for the first time  
+        ![theme](theme.png)
+        - Click Change theme to change an existing theme for your site  
+        ![change](change.png)
+    5. On the theme selection page, review your theme options. To choose a theme, click the theme you want and then click Select theme  
+    ![select](select.png)
 
 ## pandoc
 
