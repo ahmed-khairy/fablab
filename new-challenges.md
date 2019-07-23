@@ -42,7 +42,8 @@ if problems happend
             1. Open Terminal
             2. Check whether you have Ruby 2.1.0 or higher installed  
             `ruby --version`
-            3. If you don't have Ruby installed, [install Ruby 2.1.0 or higher](https://www.ruby-lang.org/en/downloads/).
+            3. If you don't have Ruby installed  
+            [install Ruby 2.1.0 or higher](https://www.ruby-lang.org/en/downloads/).
             4. Install Bundler  
             `gem install bundler`
         - Create a local repository for your Jekyll site
@@ -50,22 +51,16 @@ if problems happend
             2. Open Terminal.
             On your local computer, initialize a new Git repository for your Jekyll site  
             `git init JEKYLL-SITE-REPOSITORY-NAME`  
-            `> Initialized empty Git repository in /Users/octocat/my-site/.git/`
             3. Change directories to the new repository you created  
             `cd JEKYLL-SITE-REPOSITORY-NAME`
         - Install Jekyll using Bundler
             - To track your site's dependencies, Ruby will use the contents of your Gemfile to build your Jekyll site
             1. Check to see if you have a Gemfile in your local Jekyll site repository  
             `ls`
-            - If you have a Gemfile, skip to step 4. If you don't have a Gemfile, skip to step 2
-            2. If you don't have a Gemfile, open your favorite text editor, such as Atom, and add these lines to a new file:  
-            `source 'https://rubygems.org'`
+            2. If you don't have a Gemfile, open your favorite text editor, such as Atom, and add these lines to a new file: `source 'https://rubygems.org'`
             `gem 'github-pages', group: :jekyll_plugins`
-            3. Name the file Gemfile and save it to the root directory of your local Jekyll site repository. Skip to step 5 to install Jekyll
-            4. If you already have a Gemfile, open your favorite text editor, such as Atom, and add these lines to your Gemfile  
-            `source 'https://rubygems.org'`
-            `gem 'github-pages', group: :jekyll_plugins`
-            5. Install Jekyll and other dependencies from the GitHub Pages gem  
+            3. Name the file Gemfile and save it to the root directory of your local Jekyll site repository.
+            4. Install Jekyll and other dependencies from the GitHub Pages gem  
             `bundle install`
         - Generate Jekyll site files (optional)
             - To build your Jekyll site locally, preview your site changes, and troubleshoot build errors, you must have Jekyll site files on your local computer. You may already have Jekyll site files on your local computer if you cloned a Jekyll site repository
