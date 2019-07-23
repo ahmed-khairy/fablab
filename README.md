@@ -7,6 +7,6 @@
 - latest projects on each machine and how to do it
 - what is the minimum knowlege you need to work on each machine
 
-## Materials condition
-## New challenges
-## Fablab team updates
+## [Materials condition](/materials-conditions.md)
+## [New challenges](new-challenges.md)
+## [Fablab team updates](fablab-team-updates.md)
