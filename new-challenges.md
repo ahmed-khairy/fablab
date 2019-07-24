@@ -60,7 +60,7 @@ if problems happend
         ![change](change.png)
     5. On the theme selection page, review your theme options. To choose a theme, click the theme you want and then click Select theme  
     ![select](select.png)
-    
+
 
 ## pandoc
 
@@ -105,3 +105,23 @@ if problems happend
     - https://golang.org/dl/
 
 ### how to work
+
+#### install gohugo
+- insall Snap  
+`snap install hugo --channel=extended`
+- install hugo  
+`sudo apt-get install hugo`
+- To verify your new install  
+`hugo version`
+- Create a New Site  
+`hugo new site quickstart`
+- Add a Theme from a website https://themes.gohugo.io/
+- This quickstart uses the beautiful [Ananke theme](https://themes.gohugo.io/gohugo-theme-ananke/)  
+`cd quickstart`  
+`git init`  
+`git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke`  
+echo 'theme = "ananke"' >> config.toml
+- Add Some Content  
+`hugo new posts/my-first-post.md`
+- Start the Hugo server
+`hugo server -D`
