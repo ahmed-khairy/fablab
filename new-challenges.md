@@ -107,8 +107,6 @@ if problems happend
 ### how to work
 
 #### install gohugo
-- insall Snap  
-`snap install hugo --channel=extended`
 - install hugo  
 `sudo apt-get install hugo`
 - To verify your new install  
