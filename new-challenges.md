@@ -123,3 +123,4 @@ echo 'theme = "ananke"' >> config.toml
 `hugo new posts/my-first-post.md`
 - Start the Hugo server
 `hugo server -D`
+- i used another theme called learn, after making the page now i want to customize it, using this website https://learn.netlify.com/en/
