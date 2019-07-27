@@ -6,6 +6,7 @@
 - Machines status and what can we made with it
 - latest projects on each machine and how to do it
 - what is the minimum knowlege you need to work on each machine
+- [3D printer](/machines/3d-printer.md)
 
 ## [Softwares](/software.md)
 ## [Materials condition](/materials-conditions.md)
