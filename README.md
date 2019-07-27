@@ -7,7 +7,7 @@
 - latest projects on each machine and how to do it
 - what is the minimum knowlege you need to work on each machine
 
-## [Softwares(/software.md)]
+## [Softwares](/software.md)
 ## [Materials condition](/materials-conditions.md)
 ## [New challenges](new-challenges.md)
 ## [Fablab team updates](fablab-team-updates.md)
