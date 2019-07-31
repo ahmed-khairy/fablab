@@ -1,0 +1,8 @@
+echo start updating documentation
+git pull
+git add .
+echo write the commit
+read var
+git commit -m "$var"
+git push
+echo done pushing with commit $var
