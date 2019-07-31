@@ -60,7 +60,7 @@ if problems happend
         ![change](change.png)
     5. On the theme selection page, review your theme options. To choose a theme, click the theme you want and then click Select theme  
     ![select](select.png)
-
+- select theme from git `settings` then `github pages` then `change theme`
 
 ## pandoc
 
@@ -147,6 +147,29 @@ echo 'theme = "ananke"' >> config.toml
     - All the above environment will be set for your current session only. To make it permanent add above commands in ~/.profile file.
     - `go version`
     - `go env`
-    - the website https://tecadmin.net/install-go-on-ubuntu/
-create new project `hugo new site <new_project>`
-- install 
+    - the website https://t ecadmin.net/install-go-on-ubuntu/
+- Front matter
+    - Hugo allows you to add front matter in yaml, toml, or json to your content files
+    - Front matter allows you to keep metadata attached to an instance of a content type—i.e., embedded inside a content file—and is one of the many features that gives Hugo its strength
+    Front Matter Formats
+    - Hugo supports four formats for front matter, each with their own identifying tokens.
+    - TOML
+        - identified by opening and closing +++.
+    - YAML
+        - identified by opening and closing ---.
+    - JSON
+        - a single JSON object surrounded by ‘{’ and ‘}’, followed by a new line
+    - Front Matter Variables
+        - Predefined
+        - aliases
+        - audio
+        - date
+        - description
+        - draft
+        - expiryDate
+        - headless
+        - images
+    - https://gohugo.io/content-management/front-matter/
+- https://gohugo.io/getting-started/usage/
+- deploy your website : https://gohugo.io/getting-started/usage/
+- hosting on github : https://gohugo.io/hosting-and-deployment/hosting-on-github/
