@@ -1,4 +1,4 @@
-# This is the website for Gharbiya school's FabLab, it will include the following
+This is the website for Gharbiya school's FabLab, it will include the following
 
 ## [What is fab lab ?](/fablab-info.md)
 
