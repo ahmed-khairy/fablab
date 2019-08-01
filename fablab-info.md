@@ -17,7 +17,7 @@
 - There are 5 fablabs in Qatar
 - There are 30 fablabs in Egypt
 - There is one fablab in Libya
-- There are four fablabs in Tunisia
+- There are 4 fablabs in Tunisia
 - There is one fablab in Algeria
 - There are 14 fablabs in Morocco
 - There is one fablab in Mauritania
