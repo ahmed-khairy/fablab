@@ -5,7 +5,7 @@
 - Fab Labs provide access to environment, the skills, the materials to allow anyone to make (almost) anything
 
 ## How many fablab locally and globally
-- There are approximately 1700 fablab around the world
+- There are approximately 1700 fablabs around the world
 
 ### Arab world
 - There are about 95 fablabs around Arab world
