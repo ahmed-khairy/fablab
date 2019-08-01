@@ -30,3 +30,7 @@ https://fablabs.io/labs/map
 you can search here for `gharbiyafablab`
 
 ## Why should we be connected
+- Availability of specific machines (which lab have this machine) https://fablabs.io/machines
+- Different projects from other fablabs and how to do it https://projects.fablabs.io/
+- Discussions about Labs, Machines, Education, Projects, etc...
+- you can check https://www.fabfoundation.org/ for another informations
