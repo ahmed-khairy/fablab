@@ -3,9 +3,6 @@
 ## [What is fab lab ?](/fablab-info.md)
 
 ## Machines
-- Machines status and what can we made with it
-- latest projects on each machine and how to do it
-- what is the minimum knowlege you need to work on each machine
 - [3D printer](/machines/3d-printer.md)  
 `status` : working
 - [Laser cutter](/machines/laser-cutter.md)  
