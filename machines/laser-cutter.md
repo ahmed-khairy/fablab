@@ -38,7 +38,7 @@
     - clean the mirrors and lenses of the laser
     - The two optical components most likely to require cleaning are the focus lens and the mirror directly above it
     - never use alcohol or hardware grade acetone  
-    ![clean1](/clean_optics.jpg) 
+    ![clean1](/clean_optics.jpg)  
     ![clean2](/clean_optics2.jpg)  
     ![clean3](/clean_optics3.jpg)
 - Cleaning the X-Axis Linear Encoder Strip
