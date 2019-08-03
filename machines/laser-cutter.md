@@ -38,9 +38,9 @@
     - clean the mirrors and lenses of the laser
     - The two optical components most likely to require cleaning are the focus lens and the mirror directly above it
     - never use alcohol or hardware grade acetone  
-    ![clean1](/clean_optics.jpg)  
-    ![clean2](/clean_optics2.jpg)  
-    ![clean3](/clean_optics3.jpg)
+    ![clean1](clean_optics.jpg)  
+    ![clean2](clean_optics2.jpg)  
+    ![clean3](clean_optics3.jpg)
 - Cleaning the X-Axis Linear Encoder Strip
     - There are seven screws that attach the x-axis linear guide cover, Unscrew each of the screws until each one is loose enough to remove the linear guide cover
     - You will not need to completely remove all of the screws to remove the cover
