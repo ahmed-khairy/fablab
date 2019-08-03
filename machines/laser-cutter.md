@@ -47,7 +47,7 @@
     - The linear encoder strip is the clear plastic strip that runs along the width of the x-axis beam
     - Using the cotton swab dipped in distilled water, wipe the cotton swab along the front and back side of the linear encoder strip to remove any smoke or dust debris that might have collected on the strip
     Once you've finished wiping down each side of the encoder strip, go back with a dry cotton swab and wipe away any moisture that might have been left behind  
-    ![clean4](clean_optics4.jpg)  
+    ![clean4](/machines/clean_optics4.jpg)  
     ![clean5](clean_optics5.jpg)  
     ![clean6](clean_optics6.jpg)  
 - Lubricate the x-axis (the long side) bearing rail, after cleaning the rail place about an inch long bead of epilog supplied grease into the top and bottom grooves of the x-axis rail
