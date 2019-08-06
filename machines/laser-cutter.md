@@ -65,4 +65,20 @@
 - landscape mode takes less time in raster than portrait mode
 - it is better to raster so the laser cutting be in parallel to grain than it is perpendicular to it
 - it is preferred to fix the job size according to the table size, and change the job position
-- 
+- `stucki mode` results in more random pattern that looks more natural and pleasing to eye
+- a dithering is a great way to enhance your engraved products but it is very material dependant
+- clip art modes
+    - standard : this is the default mode and will be used for most engraving jobs that include text and clipart
+    - brighten : this lighten the clipart this mode good for engraving photographs onto wood or marble
+- photograph mode
+    - floyd-steinberg : this works well for some photo containg a great detail
+    - jarvis : produces a very nice looking pattern on almost all photos (300 DPI)
+    - stucki : the differences between jarvis and stucki are very subtle
+- to reduce the cut time we can use color mapping order so that it can cut each color by its order
+- to set a new home position
+    - turn on the laser beam
+    - press x/y off key then go
+    - move the carriage by hand
+    - press set home key
+- try center-center engraving
+- try page center feature of the shape that is not regular
