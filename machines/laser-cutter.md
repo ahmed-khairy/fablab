@@ -82,3 +82,31 @@
     - press set home key
 - try center-center engraving
 - try page center feature of the shape that is not regular
+- task plate : is general-purpose engraving table surface used for all projects that do not include vector cutting, it is good at engraving because it provides the mose even, flat engraving surface.   
+![engraving-table](/engraving-table.jpeg)
+- vector cutting table : is used when you are cutting all the way through a material   
+![vector-table](/vector-table.jpeg)
+- if you have a piece of sheet stock that does not flatten out because it is not covering enough of the vacuum holes, you can use any material, to cover some of the exposed holes, simply blocking most of the vacuum holes will be enough to flatten most sheet stock as long as it is not too severely warped
+- rim -drive rotary attachment   
+![rotatary](/rotatary.jpg)
+    - it allows you to mark and engrave on cylindrical objects
+    - how to use it?
+        1. lower the engraving table to it's lowest point
+        2. turn off the power to the laser
+        3. flip the rulers and gaurds into their up position
+        4. remove the plate
+        5. remove the crumb tray, you will see three holes in the tray that mate to the three pins on the bottom of the rotary attachment, plug the attachment into the white connector
+        6. power on the laser, the engraver now knows that the rotary attachment is installed and changes its home position to a point directly above the center point of the drive wheels on the attachment
+    - how to place the item?
+        - the wheels on the left are the drive wheels which spin the cylinder, the wheels on the right are for support
+        - the right side wheels are mounted on a scissor jack so they can be raised or lowered to level the top surface of your cylinder
+        - in most cases you will want to loas your cylinder with the larger diameter on the left
+        - load your cylinder onto the rotary attachment so that it is just touching the black bumper
+        - use the clamp to hold the glass in place is optional
+        - if your clyinder is not horizontal to the x-beam the laser will lose focus as the carriage head moves across the job
+    - how to set the focus
+        - the auto focus feature works with the rotary attachment
+        - to manually focus your item
+            - place your cylinder on the rotary
+            - place the focus gauge on the lens carriage and set the focus
+            - if you want to move the focus gauge to a different area of the cylinder, press the x/y off key, then go key to move the laser carriage to the point where you want to focus the laser, then press the focus key and use the up and down arrows to bring the table to the correct height
