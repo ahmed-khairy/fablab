@@ -1,6 +1,26 @@
 # Laser cutter - Epilog 24*12
 
 ## Purpose
+- Award Engraving
+![award](/award.jpg)
+
+- Wood Engraving and Cutting
+![wood](/maple-cut.jpg)
+
+- Glass Engraving and Etching
+![glass](/glass.jpg)
+
+- Acrylic Cutting and Engraving
+![acrylic](/acrylic.jpg)
+
+- Metal Marking with a CO2 Laser
+![metal](/metal.gif)
+
+- Personal Electronics Device Engraving
+![laptop](/laptop.jpg)
+
+- Fabric & Textiles Engraving
+![leather](/leather.jpg)
 
 ## Minimum knowledge to use machine
 - Raster engraving
@@ -16,8 +36,15 @@
 - Do not operate while unattended
 - Do not oprate Exhaust/Filter motors until making sure your job is ready to be cut
 - Turn off the Exhaust/Filter motors after cutting
+- Software you can use :
+    - coreldraw
+    - inkscape
+    - autocad
+    - adobe illustrator
+- check the inventory to know if there are any materials or not, if not you should get yours
 
-## Materials
+## Materials   
+![materials](/materials.png)
 
 ## Working time
 
