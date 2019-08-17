@@ -2,25 +2,25 @@
 
 ## Purpose
 - Award Engraving
-![award](/award.jpg)
+![award](award.jpg)
 
 - Wood Engraving and Cutting
-![wood](/maple-cut.jpg)
+![wood](maple-cut.jpg)
 
 - Glass Engraving and Etching
-![glass](/glass.jpg)
+![glass](glass.jpg)
 
 - Acrylic Cutting and Engraving
-![acrylic](/acrylic.jpg)
+![acrylic](acrylic.jpg)
 
 - Metal Marking with a CO2 Laser
-![metal](/metal.gif)
+![metal](metal.gif)
 
 - Personal Electronics Device Engraving
-![laptop](/laptop.jpg)
+![laptop](laptop.jpg)
 
 - Fabric & Textiles Engraving
-![leather](/leather.jpg)
+![leather](leather.jpg)
 
 ## Minimum knowledge to use machine
 - Raster engraving
@@ -44,7 +44,7 @@
 - check the inventory to know if there are any materials or not, if not you should get yours
 
 ## Materials   
-![materials](/materials.png)
+![materials](materials.png)
 
 ## Working time
 
@@ -110,12 +110,12 @@
 - try center-center engraving
 - try page center feature of the shape that is not regular
 - task plate : is general-purpose engraving table surface used for all projects that do not include vector cutting, it is good at engraving because it provides the mose even, flat engraving surface.   
-![engraving-table](/engraving-table.jpeg)
+![engraving-table](engraving-table.jpeg)
 - vector cutting table : is used when you are cutting all the way through a material   
-![vector-table](/vector-table.jpeg)
+![vector-table](vector-table.jpeg)
 - if you have a piece of sheet stock that does not flatten out because it is not covering enough of the vacuum holes, you can use any material, to cover some of the exposed holes, simply blocking most of the vacuum holes will be enough to flatten most sheet stock as long as it is not too severely warped
 - rim -drive rotary attachment   
-![rotatary](/rotatary.jpg)
+![rotatary](rotatary.jpg)
     - it allows you to mark and engrave on cylindrical objects
     - how to use it?
         1. lower the engraving table to it's lowest point
