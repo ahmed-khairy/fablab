@@ -18,4 +18,4 @@
 ## [Softwares](/software.md)
 ## [Materials condition](/materials-conditions.md)
 ## [New challenges](new-challenges.md)
-## [Fablab team updates](fablab-team-updates.md)
+## [Fablab team updates](/fablabteam/fablab-team-updates.md)
