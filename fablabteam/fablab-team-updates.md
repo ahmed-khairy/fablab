@@ -1,6 +1,7 @@
 # FabLab Team Updates
 
 ## Boys
+### Emad saqr - laser cutter
 - Installation steps
     - ![install1](install1.png)
     - ![install2](install2.png)
@@ -12,6 +13,6 @@
     - ![install8](install8.png)
     - ![install9](install9.png)
     
-### Emad saqr - laser cutter
+
 
 ## Girls
