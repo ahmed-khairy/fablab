@@ -173,3 +173,4 @@ echo 'theme = "ananke"' >> config.toml
 - https://gohugo.io/getting-started/usage/
 - deploy your website : https://gohugo.io/getting-started/usage/
 - hosting on github : https://gohugo.io/hosting-and-deployment/hosting-on-github/
+## to move alot of files : `find . -type f -name "*.3gp" | xargs -i mv {} 3gp/`
