@@ -1,6 +1,37 @@
 # FabLab Team Updates
+## Fablab Team members
+- Boys
+    - abd allah
+    - abd alrahman
+    - ahmed
+    - anas
+    - emad
+    - farouq
+    - hesham
+    - hossam
+    - nozahy
+    - seif
+    - zidan
+- Girls
+    - amira
+    - arwa
+    - aya hany
+    - aya wahba
+    - eman
+    - esraa
+    - gehad
+    - mayar
+    - nada
+    - nourhan
+    - rania
+    - sarah
+    - tasneem
+    - toqa
+    - veronica
 
-## Boys
+## Fablab Team members activities
+
+## Boys documentations
 ### Emad saqr - laser cutter
 - Installation steps
     - ![install1](install1.png)
@@ -89,5 +120,4 @@
         - [freepik](https://www.freepik.com/)
         - [librarylaser](https://www.librarylaser.com/en/free-designs-36?p=6)
 
-
-## Girls
+## Girls documentations
