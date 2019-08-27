@@ -45,41 +45,41 @@
         - If you are engraving any objects into the material, you need to select the resolution you want the machine to operate at.
         - It has the ability to do high resolution (1200dpi max) for really delicate and detailed engraving, but it also has the ability to do low res work (75 dpi min) for rough sketches or mark making. 300dpi is a good standard resolution to use for most jobs.
         - An important to know if that job time increases significantly with an increase in resolution. If you are just prototyping, its usually best to keep the resolution low.
-        - ![eight](eight.png)
+        - ![eight](Screenshot_20190827_130610.png)
     - Job Type : There are three different types of job types on the laser cutter
         1. `Raster` : used for only engraving onto material
         2. `Vector` : used for only cutting through a material
         3. `Combined` : used for doing both engraving and cutting in the same job
-        - ![nine](nine.png)
+        - ![nine](eight.png)
     - Options
         - The only option you ever need to change is “Auto Focus”.
         - By default, this will be set to be off, which means you need to manually focus the machine.
         - If you want to use the auto focus feature on the machine, click on the button to activate it.
-        - ![ten](ten.png)
+        - ![ten](nine.png)
     - Piece Size
         - This is important, If you do not change this, it will be set to 8.5” x 11” by default.
         - This is not the size of the laser cutter or your document, and it will result in an incorrect job.
         - Change this to 24” x 12” which matches your document, this will give you the best results. And it must be in <b>inches</b>
-        - ![elev](elev.png)
+        - ![elev](ten.png)
     - Raster Settings (if applicable) : If you are doing any engraving you will need to set :
         1. `Speed` : This controls how fast the machine will engrave into the material. Slower speed will result in more  etching power, because it will be spending more time on the same spot of the material
         2. `Power` : This controls how much power (out of 40 Watts) you use to engrave. higher power means the power of the laser will be higher resulting in the engraving will be deeper.
         - Please refer to Epilog’s Material Settings guide to know the approperiate settings you will need according to the material used
-        - ![twel](twel.png)
-        - ![thirt](thirt.png)
-        - ![fourt](fourt.png)
+        - ![twel](elev.png)
+        - ![thirt](twel.png)
+        - ![fourt](thirt.png)
     - Vector Settings (if applicable) : If you are doing any cutting you will need to set :
         1. `Speed` : This controls how fast the machine will engrave into the material. Slower speed will result in more  etching power, because it will be spending more time on the same spot of the material
         2. `Power` : This controls how much power (out of 40 Watts) you use to engrave. higher power means the power of the laser will be higher resulting in the engraving will be deeper.
         3. `Frequency` : The laser is not a continuous stream of energy, it is actually pulsing down on your material. The rate at which it does so is determined by the frequency. You can set it from 20-5000 Hz (pulses per second).
         4. `Vector Sorting` : You select from “inside-out” which will cut the vectors in your design from the inside out, prevent larger objects with inside cuts to cut first. The other option is “optimize” which will cut your design in the most efficient way.
-        - ![fifte](fifte.png)
+        - ![fifte](fourt.png)
     - Sending the Job
         1. nce you have fill in all of the settings you need, double check to make sure everything is okay.
         2. Then press “OK”.
         3. You will then be brought back to the normal print menu, click “Apply” to save the settings in case you need to go back and make some small tweaks, otherwise you’ll have to start from scratch.
         4. Finally, select “Print” on the print menu and your job will be sent to the laser cutter and will show up on the display screen of the machine.
-        - ![]()
+        - ![fift](fifte.png)
     - Free Laser Cutting Designs
         - [3axis](https://3axis.co/free-vectors/3d+dxf+files+free/page/2/)
         - [youmagine](https://www.youmagine.com/designs/latest)
