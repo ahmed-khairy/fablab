@@ -83,7 +83,7 @@
     - Free Laser Cutting Designs
         - [3axis](https://3axis.co/free-vectors/3d+dxf+files+free/page/2/)
         - [youmagine](https://www.youmagine.com/designs/latest)
-        - [123rf](https://www.123rf.com/clipart-vector/laser_cut.html?sti=nsbcg4fv6leqkgslot|)
+        - [123rf](https://www.123rf.com/clipart-vector/laser_cut.html?sti=nsbcg4fv6leqkgslot%7C)
         - [thingiverse](https://accounts.thingiverse.com/?redirect=YToyOntzOjQ6InR5cGUiO3M6ODoicmVkaXJlY3QiO3M6NDoiZGF0YSI7czozNzoiaHR0cHM6Ly93d3cudGhpbmdpdmVyc2UuY29tL2Rhc2hib2FyZCI7fQ)
         - [obrary](https://obrary.com/collections/open-designs)
         - [freepik](https://www.freepik.com/)
