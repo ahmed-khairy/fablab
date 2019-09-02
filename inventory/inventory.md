@@ -1,5 +1,9 @@
 # Inventory
 ## machines
+- ![machine1](machine1.jpg)
+- ![machine2](machine2.jpg)
+- ![machine3](machine3.jpg)
+- ![machine4](machine4.jpg)
 
 ## tools
 - ![tools3](tools3.jpg)
@@ -57,3 +61,18 @@
 - ![tools20](tools20.jpg)
 
 ## materials
+- solders : `available`
+- zippers : `available`
+- wax for modeling : `available`
+- wax bars : `available`
+- electric tip : `available`
+- solo tip : `not available`
+- wood for laser cutter : `not available`
+- aclyric for laser cutter : `not available`
+- wood for shopbot : `not available`
+- small size single layer pcb boards : `available`
+- small size douple layer pcb boards : `available`
+- vinyl rolls : `available`
+- nails : `available`
+- screws : `available`
+- electronic components (smd) : `available`
