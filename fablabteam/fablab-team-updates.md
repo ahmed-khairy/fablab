@@ -30,6 +30,11 @@
     - veronica
 
 ## Fablab Team members activities
+- Nourhan - 2/9/2019
+![nourhan](nourhan.JPG)
+    - installing windows OS on machine's computers
+    - installing ubuntu OS on machine's computers
+    - organizing fablab according to the new layout
 
 ## Boys documentations
 ### Emad saqr - laser cutter

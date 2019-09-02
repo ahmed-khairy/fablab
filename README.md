@@ -16,6 +16,6 @@
 `status` : working
 
 ## [Softwares](/software.md)
-## [Materials condition](/materials-conditions.md)
+## [Inventory](/inventory/inventory.md)
 ## [New challenges](new-challenges.md)
 ## [Fablab team updates](/fablabteam/fablab-team-updates.md)
