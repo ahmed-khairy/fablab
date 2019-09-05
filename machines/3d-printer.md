@@ -47,6 +47,8 @@
 - Supported materials : PLA, ABS, CPE
 
 ## Working time
+- monday
+- wednesday
 
 ## Maintenance
 
@@ -75,8 +77,9 @@ the filament, through which it flattens or gets stuck. This is called grinding. 
     ![atomic3](atomic3.png)
 
 ### Date
-
-## Jops
+- Yearly maintenance
+    - sunday `1\9\2019` hardware maintenance (cleaning, greasing, leveling tha plate, fix the nozzle)
+    - test the machine
 
 ## Advanced
 - for troubleshooting

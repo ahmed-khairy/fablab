@@ -49,6 +49,7 @@
 ![heat-trans](heat-trans.jpeg)
 
 ## Working time
+- tuesday
 
 ## Maintenance
 
@@ -73,8 +74,10 @@
     - If there is a buildup of material adhesive or dust inside the cap, loosen the cap, remove it, and remove any foreign matter. If pieces of material or dust build up inside the blade holder cap, the blade will stop turning smoothly and will no longer cut cleanly.
 
 ### Date
-
-## Jops
+- Yearly maintenance
+    - sunday `1\9\2019` hardware maintenance (cleaning)
+    - monday `2\9\2019` software maintenance (installing O.S and softwares)
+    - test the machine
 
 ## Advanced
 - try crop marks method (marks as a guide)   

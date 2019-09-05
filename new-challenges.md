@@ -173,12 +173,5 @@ echo 'theme = "ananke"' >> config.toml
 - https://gohugo.io/getting-started/usage/
 - deploy your website : https://gohugo.io/getting-started/usage/
 - hosting on github : https://gohugo.io/hosting-and-deployment/hosting-on-github/
-## to move alot of files : `find . -type f -name "*.3gp" | xargs -i mv {} 3gp/`
-## shell script file using loop : 
-```
-for i in $(seq 1 1 300)
-do
-rm -r recup_dir.$i
-done
-```
-## [123D Catch software](https://www.reviewstown.com/product/123d-catch/)
+
+## make 3d design : [123D Catch software](https://www.reviewstown.com/product/123d-catch/)

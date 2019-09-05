@@ -47,6 +47,8 @@
 ![materials](materials.png)
 
 ## Working time
+- tuesday
+- thursday
 
 ## Maintenance
 - Weekly maintenance include cleaning the machine and check it's functionality
@@ -81,8 +83,10 @@
 - clean the right side y-axis rail using soft cotton cloth, lubrication is not required
 
 ### Date
-
-## Jops
+- Yearly maintenance
+    - sunday `1\9\2019` hardware maintenance (cleaning, greasing)
+    - monday `2\9\2019` software maintenance (installing O.S and softwares)
+    - test the machine
 
 ## advanced
 - Center engraving : this option has been designed to be used in conjuction with the x/y off feature on the control panel

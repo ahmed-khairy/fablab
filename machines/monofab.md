@@ -57,17 +57,22 @@
 - Modeling wax
 
 ## Working time
+- monday
+- wednesday
 
 ## Maintenance
 - ![cleann](cleann1.png)
 - ![cleann2](cleann2.png)
 - ![cleann3](cleann3.png)
 - ![position](change-pos.png)
+
 ### Procedures
 
 ### Date
-
-## Jops
+- Yearly maintenance
+    - sunday `1\9\2019` hardware maintenance (cleaning, greasing)
+    - monday `2\9\2019` software maintenance (installing O.S, softwares, mods, local server)
+    - test the machine
 
 ## advanced
 - Z Cutting Range by Changing the Position of the Spindle Unit   
