@@ -1,20 +1,7 @@
 ![logo](logo.png)  
 # This is the website for Gharbiya school's FabLab, it will include the following
-
 ## [What is fab lab ?](/fablab-info.md)
-
-## Machines
-- [Laser cutter](/machines/laser-cutter.md)  
-`status` : working
-- [3D printer](/machines/3d-printer.md)  
-`status` : working
-- [Mono fab](/machines/monofab.md)  
-`status` : working
-- [Shopbot](/machines/shopbot.md)  
-`status` : not working
-- [Vinyl cutter](/machines/vinyl-cutter.md)  
-`status` : working
-
+## [Machines](machine.md)
 ## [Softwares](/software.md)
 ## [Inventory](/inventory/inventory.md)
 ## [New challenges](new-challenges.md)
