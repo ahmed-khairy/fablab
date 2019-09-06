@@ -1,6 +1,6 @@
 # AVR programming
 ## Make: AVR Programming by Elliot Williams (MAKE). Copyright 2014 Elliot Williams, 978-1-4493-5578-4.
-- Setting up the toolchain for programming AVRs on Linux : `sudo apt install avrdude avrdude-doc binutils-avr avr-libc gcc-avr gdb-avr`
+Setting up the toolchain for programming AVRs on Linux : `sudo apt install avrdude avrdude-doc binutils-avr avr-libc gcc-avr gdb-avr`
 - As a second option, the Arduino IDE is available for all three OS platforms. Heck, most of you will have it installed already. If you’ve got Arduino up and running, there are some modifications you can make to turn your Arduino IDE into a working generic AVR C-language environment.
  - Make and Makefiles : 
     - The C programming language lets you split up one big program or task into a bunch of individual functions, and lets you keep collections of functions together in their own files for easier maintenance and portability.
@@ -28,3 +28,21 @@
 - Using Arduino as hardware programmer without the Arduino IDE
     - ![arduino](arduino.png)
     - Because it’s possible to use your Arduino as a flash programmer from within the Arduino IDE, you’re probably wondering if it’s possible to flash arbitrary AVR chips without using the Arduino IDE as well. Of course it is!
+    - First, make sure that your Arduino is wired up as in Figure
+    - and that you’ve uploaded the ArduinoISP sketch to the Arduino. Once you’ve done that, you won’t need to touch the Arduino IDE again if you don’t want to.
+    - you want to use programmer type “avrisp” at 19,200 baud on the correct serial port.
+    - `PROGRAMMER_TYPE = avrisp`
+    - `PROGRAMMER_ARGS = -b 19200 -P /dev/ttyACM0`
+    - You can figure out which port name the Arduino connects to
+    -  it will be /dev/tty-something.
+    - Once your makefile is configured for the Arduino-as-programmer, you’re all set to flash the code over to your chip. If you’ve got a terminal window open, and you’re in the blinkLED directory, typing make flash should do it.
+- Other programmers
+    - `Parallel port` :
+        - it is just a cable with five wires soldered to a parallel port D-sub connector. This works because AVRDUDE knows how to toggle the lines of a parallel port to program your AVR chips directly.
+        - Unfortunately this programming method requires a parallel port on your computer, which is a luxury that fewer and fewer of us have.
+    - `Atmel AVRISP mkII` :
+        - It is capable of programming the whole AVR line, including the newest XMega devices. It’s a bit more expensive than other programmers, but it’s rock solid and is quite a bargain all in all.
+    - `USBTiny and USBasp` :
+        - These two USB-based AVR programmers have super simple hardware designs with open source firmware. You can make one yourself, although you will ironically have to find a way to flash the firmware into the AVR in the programmer (an Arduino ISP is perfect for this).
+    - `LadyAda’s USBTinyISP` :
+        - This is an improved version of the USBTiny, with input and output buffering.
