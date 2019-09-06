@@ -67,6 +67,10 @@
 - ![position](change-pos.png)
 
 ### Procedures
+- lubricate and grease the axis and rail
+- clean the container under the plate
+- make sure the layer above the plate is leveled
+- suck the wasted wood, wax or cubber from the machine
 
 ### Date
 - Yearly maintenance
