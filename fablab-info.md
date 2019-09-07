@@ -1,8 +1,8 @@
 # FabLab
 
 ## What is Fablab?
-- A Fab Lab, or digital fibrication laboratory, is a place to create, to learn, to mentor, to invent, a place for learning and innovation  
-- Fab Labs provide access to environment, the skills, the materials to allow anyone to make (almost) anything
+- A fab lab (fabrication laboratory) is a small-scale workshop offering (personal) digital fabrication (CAD and CAM)
+- A fab lab is typically equipped with computer-controlled machines that cover several different length scales and various materials, with the aim to make "almost anything".
 
 ## How many fablab locally and globally
 - There are approximately 1700 fablabs around the world
