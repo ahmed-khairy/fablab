@@ -1,11 +1,11 @@
 # Fablab Team members activities
-- Nourhan - 2/9/2019
+## Nourhan - 2/9/2019
 ![nourhan](nourhan.JPG)
     - installing windows OS on machine's computers
     - installing ubuntu OS on machine's computers
     - organizing fablab according to the new layout
 
-- Zidan - 3/9/2019
+## Zidan - 3/9/2019
 ![zidan](zidan.JPG)
     - using freecad to design a pyramid and print it on 3d printer
     - I made the layers that was:
@@ -27,7 +27,7 @@
     - Finally, I put the card in the 3D printer to start print. It takes 1.15 hour to protect this shape.
     - [pyramid file](pyramid.stl)
 
-- Zidan - 4/9/2019
+## Zidan - 4/9/2019
 - making key chain for the fablab keys
     - first design
         1. I made a rectangle with diminutions 3cm x 5cm that contains `A` letter.
