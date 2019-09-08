@@ -1,4 +1,4 @@
-# machines
+# Machines
 
 ## [Laser cutter](/machines/laser-cutter.md)  
 `status` : working

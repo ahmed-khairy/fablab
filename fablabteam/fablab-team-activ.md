@@ -25,3 +25,26 @@
     - After that I saved the project as `stl`.
     - Then used cura application to convert it to `gcode` and saved it in SD card
     - Finally, I put the card in the 3D printer to start print. It takes 1.15 hour to protect this shape.
+    - [pyramid file](pyramid.stl)
+
+- Zidan - 4/9/2019
+    - first design
+        1. I made a rectangle with diminutions 3cm x 5cm that contains `A` letter.
+        2. I made 2 circles with diameter 5mm.
+        3. I changed the setting of the lines of the triangle and circles to hair line to allow the laser cutter to cut them.
+        4. I repeat these steps 7 times, with changing the latter from A to B, C, E, F, G, H and S.
+        - ![zidan1](zidan-laser1.jpg)
+        
+    - second design
+        1. I made rectangle with dimentions 30cm*5cm that contains 7 letters and under each letter a circle with diameter 5mm.
+        2. I chanced the setting of the lines of the triangle to hair line.
+        - ![zidan8](zidan-laser8.jpg)
+        - ![zidan9](zidan-laser9.jpg)
+    - Finally
+        - I made the power of milling `100` and the speed `15` and the power of the cutting `100` and the speed `45`.
+        - ![zidan2](zidan-laser2.jpg)
+        - ![zidan5](zidan-laser5.jpg)
+        - ![zidan3](zidan-laser4.jpg)
+        - ![zidan5](zidan-laser6.jpg)
+        - ![zidan9](zidan-laser10.jpg)
+        - ![zidan9](zidan-laser11.jpg)
