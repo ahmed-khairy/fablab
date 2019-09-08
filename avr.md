@@ -64,6 +64,67 @@
         }
     }
     ```
+    - code can be written as `PORTB = 0b00000010` and can be written as `PORTB = (1<<PB1)`
+    - `OR` bitwise : if i want to turn on `PB1` and `PB2 ledS i should consider the following :
+    ```
+    0b00000010 = (1<<PB1)
+    0b01000000 = (1<<PB7)
+    0b01000010 = (1<<PB1) | (1<<PB7)
+    ```
+    - `XOR` bitwise : if i want to change the status of one led i should use this operator as follows :
+    ```
+     0b00001111
+    ^0b00000010
+     0b00001101
+    ```
+    - `AND` bitwise : if i want to clear a specific bit like :
+    ```
+     0b00001111
+    &0b11111101
+     0b00001101
+    ```
+    - `NOT` bitwise : also to clear bit :
+    ```
+    0b11111101=~(1<<PB1)
+    ```
+    - so the approperiate way is :
+    ```
+    PORTB = PORTB & ~(1<<PB1)
+    OR
+    PORTB & = ~(1<<PB1)
+    ```
+    - to set bit :
+    ```
+    PORTB | = (1<<PB1)
+    ```
+    - to clear bit :
+    ```
+    PORTB & = ~(1<<PB1)
+    ```
+    - to toggle bit :
+    ```
+    PORTB ^ = (1<<PB1)
+    ```
+    - there is another method to do that
+    ```
+    #include<avr/io.h>
+    #include<util/delay.h>
+
+    #define led PB0
+    #define led_port PORTB
+    #define led-ddr DDRB
+    #define bv(x) (1<<x)
+    #define setbit(p,b) p|=bv(b)
+    #define clearbit(p,b) p&=bv(b)
+    #define togglebit(p,b) p^=bv(b)
+    ...
+    in the main function
+    setbit(led-ddr,led)
+    ...
+    togglebit(led-port,led)
+    ```
+    - i can use `#define led PB1` to use word `led` as `PB1`
+    - `#include io.h` includes the following `#define PB0 0` and other definistions
 - configuration
     - I/O : select input or output mode (hi-z or pullup)
     - PWM : base timer clock speed, PWM mode, toggle pin, trigger interrupt
@@ -74,8 +135,8 @@
     - set up PWM mode
         - we need to set bits WGM10, WGM11, WGM12 : zero or one depending on the compination of the wanted one mode
         - so TCCR1A = 3 (for example)
-    - enable automatic output on PB1
-        - by set
+- i should check that site for [newly added stuff](http://littlehacks.org) 
+- search for bruce land's cornell university engineering course
 
 
 - video time 50:04
