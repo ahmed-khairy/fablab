@@ -28,6 +28,7 @@
     - [pyramid file](pyramid.stl)
 
 - Zidan - 4/9/2019
+- making key chain for the fablab keys
     - first design
         1. I made a rectangle with diminutions 3cm x 5cm that contains `A` letter.
         2. I made 2 circles with diameter 5mm.
