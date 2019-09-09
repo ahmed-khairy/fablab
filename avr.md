@@ -48,24 +48,27 @@
     - it is better to personalize these values in your makefile and you can use it every time without type it again
 - Coding
     ```
+    // where your include information from other files
     #include <avr/io.h>
     #include <util/delay.h>
-
-    ine main(void)
+    // here we can also use define function.
+    // or define globale variables
+    int main(void) // the C code must have one main, here                  //where the AVR starts executing your code
     {
-        DDRB = 0b00000010; // DDR, Data direction register sets pin one in PORTB (PB1) into output mode
-
-        while(1)
+        DDRB = 0b00000010;  // DDR, Data direction register sets pin one in PORTB (PB1) into output mode
+                            // can be DDRB |= (1<<PB1); 
+        while(1)            // called main loop
         {
             PORTB = 0b00000010;
             _delay_ms(1000);
             PORTB = 0b00000000;
             _delay_ms(1000);
         }
+        return (0);
     }
     ```
-    - code can be written as `PORTB = 0b00000010` and can be written as `PORTB = (1<<PB1)`
-    - `OR` bitwise : if i want to turn on `PB1` and `PB2 ledS i should consider the following :
+ or `#define` : 
+    - `OR` bitwise : if i want to turn on `PB1` and `PB2` ledS i should consider the following :
     ```
     0b00000010 = (1<<PB1)
     0b01000000 = (1<<PB7)
