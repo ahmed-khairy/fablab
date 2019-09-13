@@ -206,9 +206,31 @@
 - `uint8_t` : unsigned int 8 bits
 - `uint16_t` : unsigned int 16 bits
 - `uint8_t` : from 0 to 255 if the maximum value `255` is reached it will count from the begining `0` again
-
-
-
+- serial communication
+    - `serial protocol` : The rules for encoding data into voltage pulses and decoding the voltage pulses back into data
+    - `UART` serial : universal asynchronous receive and transmit is the most common serial mode
+        - To understand what’s going on with UART serial, start by thinking of two people who want to talk to each other by sending voltage signals over a few wires.
+        - Let’s say Alice wants to send the number 10 to her friend Bob over a wire.
+        - For concreteness, let’s say that the wire’s got a pull-up resistor on it so that it’s constantly at five volts.
+        - On Alice’s side of the wire, there’s a switch connected to ground, and on Bob’s side, there’s also an LED so that he can see what the voltage on the wire is by whether or not the LED lights up.
+        - Alice is going to send the number 10 to Bob by pressing her button, grounding the wire, and turning off Bob’s LED on the other side.
+        - Now, she could send the number by just blinking the LED off 10 times, but that system’s going to break down when she wants to send the number 253, or worse, 64,123.
+        - So instead she writes out 10 in binary, 0b00001010, and sends a corresponding pattern of flashes.
+        - Bob and Alice have to agree on a bunch of things beforehand for this to work the serial protocol.
+        - First they need to decide on an encoding: they agree before hand that a button press (a zero-volt signal on the wire) indicates a zero, and no press (five volts) indicates a one, and that they’ll send the numbers least-significant bit first.
+        - Next, they need to agree how often Alice presses or doesn’t press the button.
+        - Let’s say they choose to signal once per second.
+        - This is the baud rate—how often the voltage is allowed to change on the line, and conversely how often the receiver needs to read in a new voltage.
+        - How does Bob tell when the transmission begins and ends? They’ve agreed to wrap the eight bits with two extra bits: a start bit, which will always be a zero so that you can tell when the transmission starts, and a stop bit, which is a one.
+        - Bob is sitting at his end, staring at the LED, when he sees the LED blink. It blinks off for a second—the start bit! Now once every second after the start bit, he notes down whether the LED is on or off.
+        - After the first blink, he sees off, on, off, on, off, off, off, off, and then the LED stays on for a while.
+        - He writes down his eight bits, 01010000.
+        - He then flips the bit-ordering around, and sees that Alice has sent the number 10!
+        - The oscilloscope trace is a real example of an AVR transmitting the digit 10 to my computer.
+        - ![osc](osc.png)
+        - ![osc2](osc2.png)
+        - Instead of one bit per second I used 9,600 bits per second (baud), so each bit takes about 104 microseconds.
+        - Encoding and decoding this data seems like a lot of work, and getting the timing exactly right to send and receive data at baud rates in the tens of thousands of bits per second is no picnic either. That’s why all of the AVR Mega microcontrollers have at least one dedicated hardware peripheral, called a Universal Synchronous and Asyncronous Receiver and Transmitter (USART) device built in.
 
 
 - i should check that site for [newly added stuff](http://littlehacks.org) 
