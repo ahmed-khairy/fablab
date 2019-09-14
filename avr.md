@@ -231,7 +231,12 @@
         - ![osc2](osc2.png)
         - Instead of one bit per second I used 9,600 bits per second (baud), so each bit takes about 104 microseconds.
         - Encoding and decoding this data seems like a lot of work, and getting the timing exactly right to send and receive data at baud rates in the tens of thousands of bits per second is no picnic either. That’s why all of the AVR Mega microcontrollers have at least one dedicated hardware peripheral, called a Universal Synchronous and Asyncronous Receiver and Transmitter (USART) device built in.
-
+        - Connecting your serial adapter to the AVR is as simple as connecting three wires, and the first one’s simple:
+            - iit’s GND. The other two are “tricky.” You need to connect the RX of one device to the TX of the other, and the TX of one to the RX of the other.
+        - When a capacitor is subject to a DC voltage, it lets a little current through until it is “charged up” to that voltage, then it blocks further current. This means that capacitors pass current only for changes in voltage. This is perfect for our speaker!
+        - The changing signal that makes up the audio is passed through, while the speaker doesn’t overload the AVR’s output current when the voltage is held high.
+        - But do note that if you’re using an electrolytic capacitor (one that comes in a metal tube-shaped can), they often have a positive and negative sides to them. We’re not running enough current through the capacitor to damage it anyway, but you might as well hook it up with the stripe (negative terminal) to ground.
+        
 
 - i should check that site for [newly added stuff](http://littlehacks.org) 
 - search for bruce land's cornell university engineering course
