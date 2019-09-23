@@ -3,7 +3,7 @@
 - Why using `C` language?
     - your code will be much faster (cycles and size)
     - make the code flexible
-    - `C` is available for every CPU
+    - `C` is available for every CPUpu
     - `C` will work on every AVR
 - Micro controller is a whole computer on a chip, but it is very little computer
     - CPU
@@ -236,7 +236,54 @@
         - When a capacitor is subject to a DC voltage, it lets a little current through until it is “charged up” to that voltage, then it blocks further current. This means that capacitors pass current only for changes in voltage. This is perfect for our speaker!
         - The changing signal that makes up the audio is passed through, while the speaker doesn’t overload the AVR’s output current when the voltage is held high.
         - But do note that if you’re using an electrolytic capacitor (one that comes in a metal tube-shaped can), they often have a positive and negative sides to them. We’re not running enough current through the capacitor to damage it anyway, but you might as well hook it up with the stripe (negative terminal) to ground.
-        
+    - Python is an interpreted language, and includes modules that let you do basically anything, easily.
+    - I’ll use it throughout the book for projects that require computer/AVR interaction, or for doing any sort of computations that are too demanding for the AVR.
+    - Choose a baud rate, here by defining BAUD, and write the appropriate values to the baud rate registers UBRRL and UBRRH. (The setbaud.h library will help you with this.)
+    - Enable the serial receive and transmit register bits.
+    - If you’re transmitting, wait until the hardware is ready (loop_until_bit_is_set(UCSR0A, UDRE0)) and then load your byte data into UDR0. The AVR’s hardware handles everything else automatically.
+    - If you’re waiting for data, check the data-received bit (bit_is_set(UCSR0A, RXC0)) and then read the data out of UDR0. Reading UDR0 automatically clears the data-received bit, and the AVR gets ready for the next received byte.
+- push button
+    - Push buttons are cheap, ubiquitous, and the natural choice for quick and mostly painless human/AVR interaction.
+    - The naïve circuit shown connects one end of the pushbutton to ground and the other end to the AVR That way, whenever you press the button the AVR end is connected to ground, too, so it’s pretty much guaranteed to be at 0 V.
+    - ![push](push-button.png)
+    - But when you let go of the button (or open the switch), what is the voltage at the AVR end of the switch? Short answer: nobody knows. A wire that’s just dangling in the air, on the unconnected side of a switch, can act as an antenna.
+    - The voltage on that wire will wiggle around between high and low logic states at whatever frequency the strongest local radio stations (or even “noisy” electrical appliances) broadcast.
+    - Instead of some random value, you want the side of the button that you connect to the AVR to have a nice, defined high voltage level when the button isn’t pressed.
+    - But you can’t hook the AVR-side of the button directly to VCC, because if you did, you’d be shorting out the power supply when you pressed the button—hooking VCC up directly to GND is a recipe for disaster. Enter the pull-up resistor
+    - ![pull-up](pull-up.png)
+    - Now here’s the cool bit. The AVR chips provide you a built-in pull-up resistor for each pin, and you have the option to activate it for any pin that is in input mode.
+    - to set a pin to be input and to enable pull-up resistor of this pin
+        - `DDRD &= ~(1 << PD2);`
+        - `PORTD |= (1 << PD2);`
+    - how to test an input pin
+        - Testing bit states is done with the AND operator.
+        - You know that an AND will only return 1 if both bits are 1.
+        - If you perform an AND operation in which you compare an unknown bit value against a known 1, you’ll get the state of the mystery bits as the result.
+        - So you’ll bit-shift a 1 into the bit location you’re interested in, then AND the two bytes together.
+        - The result will either be all zeros if the target bit was zero, or it will be a byte with a 1 in the target location if it was 1.
+        - Say we’re interested in testing if bit two is set. The first step is to create a bitmask with a 1 in bit two:
+            - `(1 << 2) : 00000100`
+        - Then we AND that byte with whatever is in the input register, PIND:
+            - `PIND : xxxxxxxx`
+            - `(1 << 2) : 00000100`
+            - `& : 00000x00`
+        - If the value we were interested in knowing is a zero, the result is eight zeros.
+        - If the result isn’t zero, then we know the pin in the input register must have been set.
+        - So we can test this:
+            ```
+            if (PIND & (1<<2))
+            {
+                doStuff();
+            }
+            ```
+    - to solve bounce button problem :
+        - using capacitor
+        - using delay
+        - variable to store the button status
+    - using python to write script on computer,  because it’s very easy to extend your work from one domain to another. Most of the stuff that’s almost impossible to implement on a microcontroller is trivial in Python (and vice versa).
+
+
+
 
 - i should check that site for [newly added stuff](http://littlehacks.org) 
 - search for bruce land's cornell university engineering course

@@ -1,0 +1,5 @@
+{
+    "programmer": "Atmel-ICE (AVR)",
+    "board": "arduino:avr:uno",
+    "port": "/dev/ttyACM0"
+}
