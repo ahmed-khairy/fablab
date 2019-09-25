@@ -1,5 +1,7 @@
 {
     "programmer": "Atmel-ICE (AVR)",
-    "board": "arduino:avr:uno",
-    "port": "/dev/ttyACM0"
+    "board": "attiny:avr:ATtinyX4",
+    "port": "/dev/ttyACM0",
+    "configuration": "cpu=attiny44,clock=internal8",
+    "sketch": "app.ino"
 }

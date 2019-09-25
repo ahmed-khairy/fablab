@@ -4,5 +4,5 @@
 ## [Inventory](/inventory/inventory.md)
 ## [Machines](machine.md)
 ## [Softwares](/software.md)
-## [New challenges](new-challenges.md)
+## [New challenges](/new-challenges/new-challenges.md)
 ## [Fablab team updates](/fablabteam/fablab-team-updates.md)

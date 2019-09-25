@@ -50,3 +50,40 @@
         - ![zidan5](zidan-laser6.jpg)
         - ![zidan9](zidan-laser10.jpg)
         - ![zidan9](zidan-laser11.jpg)
+
+## FabLab Team first meeting : corel draw and laser cutter 25/9/2019
+- Boys
+    - abdallah
+    <!-- - ![abdallah-design](abdallah-design.JPG) -->
+    - ![abdallah-print](abdallah-print.JPG)
+    - abdalrahman
+    - ![abdalrahman-design](abdalhamed-design.jpg)
+    - ![abdalrahman-print](abdalhamed-print.JPG)
+    - ahmed
+    <!-- - ![ahmed-design](ahmed-design.JPG) -->
+    - ![ahmed-print](ahmed-print.JPG)
+    - seif
+    <!-- - ![seif-design](seif-design.JPG) -->
+    - ![seif-print](seif-print.JPG)
+    - zidan
+    - ![zidan-design](zidan-design.jpg)
+    - ![zidan-print](zidan-print.JPG)
+- Girls
+    - arwa
+    <!-- - ![arwa-design](arwa-design.JPG) -->
+    - ![arwa-print](arwa-print.JPG)
+    - mayar
+    <!-- - ![mayar-design](mayar-design.JPG) -->
+    - ![mayar-print](mayar-print.JPG)
+    - nada
+    <!-- - ![nada-design](nada-design.JPG) -->
+    - ![nada-print](nada-print.JPG)
+    - nihal
+    - ![nihal-design](nihal-design.JPG)
+    - ![nihal-print](nihal-print.JPG)
+    - sarah
+    <!-- - ![sarah-design](sarah-design.JPG) -->
+    - ![sarah-print](sarah-print.JPG)
+    - veronica
+    <!-- - ![veronica-design](veronica-design.JPG) -->
+    - ![veronica-print](veronica-print.JPG)
