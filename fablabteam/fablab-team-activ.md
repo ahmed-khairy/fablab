@@ -52,6 +52,8 @@
         - ![zidan9](zidan-laser11.jpg)
 
 ## FabLab Team first meeting : corel draw and laser cutter 25/9/2019
+- design requirement
+    - using 10 * 10 cm wood piece to make any design
 - Boys
     - abdallah
     <!-- - ![abdallah-design](abdallah-design.JPG) -->
@@ -70,7 +72,7 @@
     - ![zidan-print](zidan-print.JPG)
 - Girls
     - arwa
-    <!-- - ![arwa-design](arwa-design.JPG) -->
+    ![arwa-design](arwa-design.jpeg)
     - ![arwa-print](arwa-print.JPG)
     - mayar
     <!-- - ![mayar-design](mayar-design.JPG) -->
