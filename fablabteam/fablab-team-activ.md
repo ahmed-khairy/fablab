@@ -62,7 +62,7 @@
     - ![abdalrahman-design](abdalhamed-design.jpg)
     - ![abdalrahman-print](abdalhamed-print.JPG)
     - ahmed
-    <!-- - ![ahmed-design](ahmed-design.JPG) -->
+    - ![ahmed-design](ahmed-design.jpeg)
     - ![ahmed-print](ahmed-print.JPG)
     - seif
     <!-- - ![seif-design](seif-design.JPG) -->
