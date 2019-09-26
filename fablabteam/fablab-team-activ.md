@@ -75,13 +75,13 @@
     ![arwa-design](arwa-design.jpeg)
     - ![arwa-print](arwa-print.JPG)
     - mayar
-    <!-- - ![mayar-design](mayar-design.JPG) -->
+    - ![mayar-design](mayar-design.jpg)
     - ![mayar-print](mayar-print.JPG)
     - nada
-    <!-- - ![nada-design](nada-design.JPG) -->
+    - ![nada-design](nada-design.jpg)
     - ![nada-print](nada-print.JPG)
     - nihal
-    - ![nihal-design](nihal-design.JPG)
+    - ![nihal-design](nihal-design.jpg)
     - ![nihal-print](nihal-print.JPG)
     - sarah
     - ![sarah-design](sarah-design.jpg)
