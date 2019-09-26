@@ -84,7 +84,7 @@
     - ![nihal-design](nihal-design.JPG)
     - ![nihal-print](nihal-print.JPG)
     - sarah
-    <!-- - ![sarah-design](sarah-design.JPG) -->
+    - ![sarah-design](sarah-design.jpg)
     - ![sarah-print](sarah-print.JPG)
     - veronica
     <!-- - ![veronica-design](veronica-design.JPG) -->
