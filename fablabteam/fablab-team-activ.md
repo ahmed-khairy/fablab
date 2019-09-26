@@ -56,7 +56,7 @@
     - using 10 * 10 cm wood piece to make any design
 - Boys
     - abdallah
-    <!-- - ![abdallah-design](abdallah-design.JPG) -->
+    - ![abdallah-design](abdallah-design.jpg)
     - ![abdallah-print](abdallah-print.JPG)
     - abdalrahman
     - ![abdalrahman-design](abdalhamed-design.jpg)
