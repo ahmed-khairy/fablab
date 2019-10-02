@@ -53,7 +53,7 @@
 
 ## FabLab Team first meeting : corel draw and laser cutter 25/9/2019
 - design requirement
-    - using 10 * 10 cm wood piece to make any design
+    - using 10 * 10 cm wood piece and what ever design they would like to choose
 - Boys
     - abdallah
     - ![abdallah-design](abdallah-design.jpg)

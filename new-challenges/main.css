@@ -1,0 +1,30 @@
+body
+{
+    background: rgb(218, 198, 198);
+    font-family: 'Courier New';
+}
+h1
+{
+    color: brown;
+}
+h2
+{
+    background: darkkhaki;
+}
+p
+{
+    background: rgb(155, 155, 241);
+}
+.first
+{
+    background: rgb(36, 36, 92);
+}
+.second
+{
+    font-family: 'Times New Roman';
+}
+#third
+{
+    color: blueviolet;
+    background: #654;
+}
