@@ -11,5 +11,8 @@
 ## [Android App Development for Beginners - 3 - Setting up Your Project](https://www.youtube.com/watch?v=r4oIez0sfvY)
 - test your program
 - start new project
-- select any activity to start
-- 
+- select any activity to start, activity is like screen on your app
+- the name of the activity is important if i want to use it later, it should have a name
+
+## [Android App Development for Beginners - 4 - Running a Simple App](https://www.youtube.com/watch?v=qKRWC3Q8wRw)
+

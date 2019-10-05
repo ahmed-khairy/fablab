@@ -89,3 +89,38 @@
     - veronica
     <!-- - ![veronica-design](veronica-design.JPG) -->
     - ![veronica-print](veronica-print.JPG)
+
+## FabLab Team second meeting : eagle PCB design software 2/10/2019
+- design requirement
+    - using 3.5 * 5 cm board and any electronic circuit they would like to choose
+    - use the components from the FabLab
+- Boys
+    - abdallah
+    <!-- - ![abdallah-pcb](abdallah-pcb.jpg) -->
+    - abdalrahman
+    <!-- - ![abdalrahman-pcb](abdalhamed-pcb.jpg) -->
+    - ahmed
+    - ![ahmed-pcb](ahmed-pcb.jpg)
+    - anas
+    <!-- - ![anas-pcb](anas-pcb.jpg) -->
+    - seif
+    - ![seif-pcb](seif-pcb.jpg)
+    - zidan
+    <!-- - ![zidan-pcb](zidan-pcb.jpg) -->
+- Girls
+    - arwa
+    <!-- - ![arwa-pcb](arwa-pcb.jpeg) -->
+    - aya
+    <!-- - ![aya-pcb](aya-pcb.jpeg) -->
+    - mayar
+    <!-- - ![mayar-pcb](mayar-pcb.jpg) -->
+    - nada
+    <!-- - ![nada-pcb](nada-pcb.jpg) -->
+    - nourhan
+    <!-- - ![nourhan-pcb](nourhan-pcb.jpeg) -->
+    - nihal
+    <!-- - ![nihal-pcb](nihal-pcb.jpg) -->
+    - sarah
+    <!-- - ![sarah-pcb](sarah-pcb.jpg) -->
+    - veronica
+    <!-- - ![veronica-pcb](veronica-pcb.JPG) -->
