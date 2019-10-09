@@ -7,7 +7,7 @@
     - ahmed
     - ![ahmed-pcb](ahmed-brd.jpg)
     - seif
-    - ![seif-pcb](seif-pcb.jpg)
+    <!-- - ![seif-pcb](seif-pcb.jpg) -->
     - zidan
     - ![zidan-pcb](zidan-brd.jpg)
 - Girls
