@@ -1,4 +1,36 @@
 # Fablab Team members activities
+## FabLab Team third meeting : continue eagle PCB design software 9/10/2019
+- design requirement
+    - using 3.5 * 5 cm board and any electronic circuit they would like to choose
+    - use the components from the FabLab
+- Boys
+    - ahmed
+    - ![ahmed-pcb](ahmed-brd.jpg)
+    - seif
+    - ![seif-pcb](seif-pcb.jpg)
+    - zidan
+    - ![zidan-pcb](zidan-brd.jpg)
+- Girls
+    - arwa
+    - ![arwa-pcb](arwa-brd.jpg)
+    - ![arwa-pcb](arwa-sch.jpg)
+    - aya
+    - ![aya-pcb](aya-brd.jpg)
+    - ![aya-pcb](aya-sch.jpg)
+    - mayar
+    <!-- - ![mayar-pcb](mayar-pcb.jpg) -->
+    - nada
+    - ![nada-pcb](nada-brd.jpg)
+    - nourhan
+    - ![nourhan-pcb](nourhan-brd.jpg)
+    - nihal
+    - ![nihal-pcb](nihal-sch.jpg)
+    - sarah
+    - ![sarah-pcb](sarah-brd.jpg)
+    - veronica
+    - ![veronica-pcb](veronica-brd.jpg)
+    - ![veronica-pcb](veronica-fab.jpg)
+
 ## FabLab Team second meeting : eagle PCB design software 2/10/2019
 - design requirement
     - using 3.5 * 5 cm board and any electronic circuit they would like to choose
@@ -26,7 +58,7 @@
     - nada
     <!-- - ![nada-pcb](nada-pcb.jpg) -->
     - nourhan
-    <!-- - ![nourhan-pcb](nourhan-pcb.jpeg) -->
+    - ![nourhan-pcb](nourhan-brd.jpg)
     - nihal
     <!-- - ![nihal-pcb](nihal-pcb.jpg) -->
     - sarah
@@ -70,7 +102,7 @@
     - ![sarah-design](sarah-design.jpg)
     - ![sarah-print](sarah-print.JPG)
     - veronica
-    <!-- - ![veronica-design](veronica-design.JPG) -->
+    - ![veronica-design](veronica-design.jpg)
     - ![veronica-print](veronica-print.JPG)
 
 ## Zidan - 4/9/2019
