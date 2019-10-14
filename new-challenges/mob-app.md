@@ -14,5 +14,4 @@
 - select any activity to start, activity is like screen on your app
 - the name of the activity is important if i want to use it later, it should have a name
 
-## [Android App Development for Beginners - 4 - Running a Simple App](https://www.youtube.com/watch?v=qKRWC3Q8wRw)
-
+## [Android App Development for Beginners - 4 - Running a Simple App](https://www.youtube.com/watch?v=qKRWC3Q8wRw) 
