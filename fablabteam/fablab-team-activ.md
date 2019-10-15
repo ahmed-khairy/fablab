@@ -1,4 +1,30 @@
 # Fablab Team members activities
+## FabLab Team fourth meeting : inkscape software and vinyl cutter machine 15/10/2019
+- design requirement
+    - 7*7 cm design on inkscape software that includes
+      - photo
+      - text
+- Boys
+  - abd allah
+  - abd alrahman
+  - ahmed
+  - anas
+  - ![vinyl1](anas-vinyl.jpg)
+  - hesham
+  - ![vinyl2](hesham-vinyl.jpg)
+  - zidan
+  - ![vinyl3](zidan-vinyl.jpg)
+  - ![vinyl4](zidan-vinyl2.jpg)
+- Girls
+  - arwa
+  - aya wahba
+  - nada
+  - nihal
+  - nourhan
+  - ![vinyl5](nourhan-vinyl.jpg)
+  - ![vinyl6](nourhan-vinyl2.jpg)
+  - sarah
+
 ## FabLab Team third meeting : continue eagle PCB design software 9/10/2019
 - design requirement
     - using 3.5 * 5 cm board and any electronic circuit they would like to choose
@@ -114,7 +140,7 @@
         3. I changed the setting of the lines of the triangle and circles to hair line to allow the laser cutter to cut them.
         4. I repeat these steps 7 times, with changing the latter from A to B, C, E, F, G, H and S.
         - ![zidan1](zidan-laser1.jpg)
-        
+
     - second design
         1. I made rectangle with dimentions 30cm*5cm that contains 7 letters and under each letter a circle with diameter 5mm.
         2. I chanced the setting of the lines of the triangle to hair line.
