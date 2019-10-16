@@ -8,6 +8,7 @@
   - abd allah
   - abd alrahman
   - ahmed
+  - ![vinyl7](darwish-vinyl.jpg)
   - anas
   - ![vinyl1](anas-vinyl.jpg)
   - hesham
@@ -18,7 +19,9 @@
 - Girls
   - arwa
   - aya wahba
+  - ![vinyl](aya-vinyl.jpg)
   - nada
+  - ![vinyl8](nada-vinyl.jpg)
   - nihal
   - nourhan
   - ![vinyl5](nourhan-vinyl.jpg)
