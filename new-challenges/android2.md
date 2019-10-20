@@ -154,3 +154,27 @@
   HashMap<String,HashMap<String,String>> newhashmap = new HashMap<String,HashMap<String,String>>();
   newhashmap.put("USA",newhashmap);
   ```
+
+## [Objects and 'new'](https://www.udemy.com/course/become-an-android-developer-from-scratch/learn/lecture/1013032#overview)
+- java is an object oriented programming
+- differences between class and Object
+  ```
+  public class MyClass  //this is class (blue print)
+  {
+    String variable = "moose";
+    public MyClass (String aString)
+    {
+      variable = aString;
+    }
+  }
+  ```
+- to get from a class to an object, we use the `new` keyword
+  - `MyClass myObject = new MyClass();`
+  - this will point to MyClass memory, it takes it's blue print
+- if i use this command
+  - `MyClass otherObject`
+  - this will point to `null`
+- if i create an array of objects the inheret from `MyClass`
+  - `MyClass[] someObjects = new MyClassp[5];`
+  - all of them will point to null, i have to assign to each object like
+    - `someObjects[0]= myObject`
