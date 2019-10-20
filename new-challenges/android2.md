@@ -178,3 +178,27 @@
   - `MyClass[] someObjects = new MyClassp[5];`
   - all of them will point to null, i have to assign to each object like
     - `someObjects[0]= myObject`
+
+## [Constructors and allocation](https://www.udemy.com/course/become-an-android-developer-from-scratch/learn/lecture/1013034#overview)
+- `MyClass myObject = new Myclass();`
+  - `MyClass` : is the class i want to make object from
+  - `myObject` : name of the new object
+  - `new` : keyword
+- but why is there a parenthesis?
+  - we use parenthesis when we deal with methods, but how ?
+  ```
+  public class MyClass
+  {
+    String memberVariable = "moose";
+    public MyClass()
+    {
+
+    }
+    public MyClass (String aString)
+    {
+      memberVariable = aString;
+    }
+  }
+  ```
+  - first and second methods are called constructors, because they are called when constructing the object for the first time
+  - even if we didn't create them, they will be generated for us
