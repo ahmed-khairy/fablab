@@ -46,24 +46,24 @@
   - the class's name followed by braces {}, it's better to use PascalCase to define it
   - the method's name followed by parenthesis (), it's better to use camelCase to define it
 - example of class, a private method and variables
-```
-// class definition
-public class MyInfo
-{
-  // attributes
-  int myAge = 33;
-  String myName = "Ahmed";
-  boolean isMale = true;
-  char middleInitial = 'M';
-  float myHeightInMeters = 1.6f;
-  // method definition
-  private void updateMyInfo ()
+  ```
+  // class definition
+  public class MyInfo
   {
-    myAge = 35;
-    myName = "Ahmed Khairy";
+    // attributes
+    int myAge = 33;
+    String myName = "Ahmed";
+    boolean isMale = true;
+    char middleInitial = 'M';
+    float myHeightInMeters = 1.6f;
+    // method definition
+    private void updateMyInfo ()
+    {
+      myAge = 35;
+      myName = "Ahmed Khairy";
+    }
   }
-}
-```
+  ```
 
 ## [Memory lockers](https://www.udemy.com/course/become-an-android-developer-from-scratch/learn/lecture/1157038#overview)
 - memory
@@ -90,4 +90,28 @@ public class MyInfo
 ## [Android studio](https://www.udemy.com/course/become-an-android-developer-from-scratch/learn/lecture/1012948#overview)
 - installing android studio
 - sdk manager installing
-- 
+
+## [Arrays](https://www.udemy.com/course/become-an-android-developer-from-scratch/learn/lecture/1013024#overview)
+- if i want to declare one `int` variable i can use `int x`, but if i want to declare array of `int` variables i can use `int []`
+- i can set array elements by
+  ```
+  int [] myArray = new int [5];
+  myArray [0] =  0;
+  myArray [1] = 4;
+  etc ...
+  ```
+  ```
+  int [] myArray = {0,4,etc,...}; //the size of the array is defined depending on the elements
+  ```
+
+## [Lists](https://www.udemy.com/course/become-an-android-developer-from-scratch/learn/lecture/1013026#overview)
+- list types
+  - arraylist
+  - linkedlist
+  - vector
+- difference between array and list
+  - `String[] days = {"sat","sun","mon","tue","wed","thur","fri"}` : array
+    - if i want to insert an element between them i have to create new array then take the elements before the inserted element then add the new element and take the other elements from the original array and so on
+  - `ArrayList<String> myList = new ArrayList<String>();` : define a collection in java
+    - if i want to add elements to that list i will use `myList.add("first"); myList.add("second"); myList.add("fourth");`
+    - if i want to insert an element between them i will just use the index number and use add `myList.add(2,"third");`
