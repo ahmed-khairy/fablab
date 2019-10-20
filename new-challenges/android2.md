@@ -130,3 +130,27 @@
     mySet.add("three");
     mySet.add("two"); // this won't be added, it will keep just one of them
     ```
+
+## [Maps](https://www.udemy.com/course/become-an-android-developer-from-scratch/learn/lecture/1013030#overview)
+- it is used to give a key to an element instead of index number like
+  ```
+  key >>>> value
+  0   >>>> "cat"
+  1   >>>> "dog"
+  200 >>>> "anything"
+  ```
+- types of maps
+  - hashmap
+  - hashtable
+  - treemap
+- to declare a map
+  ```
+  HashMap<String,String> myhashmap = new HashMap<String, String>();
+  myhashmap.put("mykey","dog"); //to put elements
+  myhashmap.get("mykey"); //to get it
+  ```
+- to make a list of key maps
+  ```
+  HashMap<String,HashMap<String,String>> newhashmap = new HashMap<String,HashMap<String,String>>();
+  newhashmap.put("USA",newhashmap);
+  ```
