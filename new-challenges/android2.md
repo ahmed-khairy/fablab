@@ -115,3 +115,18 @@
   - `ArrayList<String> myList = new ArrayList<String>();` : define a collection in java
     - if i want to add elements to that list i will use `myList.add("first"); myList.add("second"); myList.add("fourth");`
     - if i want to insert an element between them i will just use the index number and use add `myList.add(2,"third");`
+
+## [Sets](https://www.udemy.com/course/become-an-android-developer-from-scratch/learn/lecture/1013028#overview)
+- it is used to store data that is unique and never duplicate
+- types of Sets
+  - hashset
+  - treeset
+  - linkedhashset
+- if i want to store data like
+    ```
+    HashSet<String> mySet = new HashSet<String>();
+    mySet.add("one");
+    mySet.add("two");
+    mySet.add("three");
+    mySet.add("two"); // this won't be added, it will keep just one of them
+    ```
