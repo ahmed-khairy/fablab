@@ -1,4 +1,28 @@
 # Fablab Team members activities
+## FabLab Team fifth meeting : 3D design 23/10/2019
+- design requirement
+    - 5*5*5 cm or a 125 cm square design on 3D design software
+- Boys
+  - abd alrahman
+  - ahmed
+  - anas
+  - seif
+  - zidan
+  - ![zidan-3d](zidan-3d1.jpg)
+  - ![zidan-3d](zidan-3d2.jpg)
+  - ![zidan-3d](zidan-3d3.jpg)
+  - ![zidan-3d](zidan-3d4.jpg)
+  - ![zidan-3d](zidan-3d5.jpg)
+- Girls
+  - arwa
+  - aya wahba
+  - mayar
+  - nada
+  - nihal
+  - ![nihal](nihal-3d.jpg)
+  - veronica
+  - sarah
+
 ## FabLab Team fourth meeting : inkscape software and vinyl cutter machine 15/10/2019
 - design requirement
     - 7*7 cm design on inkscape software that includes
