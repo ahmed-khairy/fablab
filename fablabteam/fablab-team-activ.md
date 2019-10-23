@@ -1,7 +1,7 @@
 # Fablab Team members activities
 ## FabLab Team fifth meeting : 3D design 23/10/2019
 - design requirement
-    - 5*5*5 cm or a 125 cm square design on 3D design software
+    - 5x5x5 cm or a 125 cm square design on 3D design software
 - Boys
   - abd alrahman
   - ahmed
