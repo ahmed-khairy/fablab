@@ -20,6 +20,7 @@
   - nada
   - nihal
   - ![nihal](nihal-3d.jpg)
+  - ![nihal](nihal-3d1.jpg)
   - veronica
   - sarah
 
