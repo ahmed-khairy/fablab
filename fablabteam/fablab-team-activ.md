@@ -4,8 +4,13 @@
     - 5x5x5 cm or a 125 cm square design on 3D design software
 - Boys
   - abd alrahman
+  - ![abdo](abdalrahman-3d1.jpg)
+  - ![abdo2](abdalrahman-3d2.jpg)
   - ahmed
   - anas
+  - ![anas](anas-3d1.jpg)
+  - ![anas](anas-3d2.jpg)
+  - ![anas](anas-3d3.jpg)
   - seif
   - zidan
   - ![zidan-3d](zidan-3d1.jpg)
