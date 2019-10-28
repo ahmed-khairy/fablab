@@ -202,3 +202,15 @@
   ```
   - first and second methods are called constructors, because they are called when constructing the object for the first time
   - even if we didn't create them, they will be generated for us
+
+## [Garbage collection and null](https://www.udemy.com/course/become-an-android-developer-from-scratch/learn/lecture/1013036?components=buy_button,introduction_asset,purchase#overview)
+- it is used to un allocate memories locations to free up spaces
+- java keep track of memory spaces and count how many times the program points to that location
+
+## [Operators and assignments : bitwise and unary](https://www.udemy.com/course/become-an-android-developer-from-scratch/learn/lecture/1013042#overview)
+
+## [The return statement](https://www.udemy.com/course/become-an-android-developer-from-scratch/learn/lecture/1013044#overview)
+
+##[The if statement](https://www.udemy.com/course/become-an-android-developer-from-scratch/learn/lecture/1043000#overview)
+
+## [Compiling and depugging](https://www.udemy.com/course/become-an-android-developer-from-scratch/learn/lecture/1013100#overview)
