@@ -19,3 +19,8 @@ Followed by either onRestart() if this activity is coming back to interact with 
 - `onDestroy()` : The final call you receive before your activity is destroyed. This can happen either because the activity is finishing (someone called Activity#finish on it), or because the system is temporarily destroying this instance of the activity to save space. You can distinguish between these two scenarios with the Activity#isFinishing method.
 
 ## [Android Tutorial for Beginners 7 # Adding Two Numbers App (Simple Calculator)](https://www.youtube.com/watch?v=7OQJIaXNmT4&list=PLS1QulWo1RIbb1cYyzZpLFCKvdYV_yJ-E&index=8)
+
+## [Android Tutorial for Beginners 8 # wrap_content, fill_parent, Password Field and Toast in Android](https://www.youtube.com/watch?v=V7HPQ6DVvug&list=PLS1QulWo1RIbb1cYyzZpLFCKvdYV_yJ-E&index=9)
+
+## [Android Tutorial for Beginners 9 # Android Checkbox Basics and Example](https://www.youtube.com/watch?v=HO7CsnUEJAs&list=PLS1QulWo1RIbb1cYyzZpLFCKvdYV_yJ-E&index=10)
+- NEXT
