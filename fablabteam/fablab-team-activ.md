@@ -1,4 +1,27 @@
 # Fablab Team members activities
+## FabLab Team sixth meeting : electronic simulation 30/10/2019
+- design requirement
+  - using any simulation software to test one of these circuits 555 ic circuit transistor as a switch circuit 7 segment circuit (with decoder or without) h bridge circuit OR ANY CIRCUIT YOU WANT TO TEST, AT LEST HAVE THREE COMPONENTS simulation software : proteus, multisim, .....   your are not restricted to these two
+- Boys
+  - ahmed
+  - ![ahmed](ahmed-sim.jpg)
+  - seif
+  - ![seif](seif-sim.jpg)
+  - abdalrahman
+  - ![abdalrahman](abdalrahman-sim.jpg)
+  - abdallah
+  - ![abdallah-sim1](abdallah-sim1.jpg)
+  - ![abdallah-sim1](abdallah-sim2.jpg)
+  - anas
+  - zidan
+  - ![zidan](zidan-sim.jpg)
+- Girls
+  - nihal
+  - ![nihal-sim](nihal-sim.jpg)
+  - nada
+  - nourhan
+  - ![nourhan-sim](nourhan-sim.jpg)
+
 ## FabLab Team fifth meeting : 3D design 23/10/2019
 - design requirement
     - 5x5x5 cm or a 125 cm square design on 3D design software
@@ -12,6 +35,7 @@
   - ![anas](anas-3d2.jpg)
   - ![anas](anas-3d3.jpg)
   - seif
+  - ![seif-3d](seif-3d.jpg)
   - zidan
   - ![zidan-3d](zidan-3d1.jpg)
   - ![zidan-3d](zidan-3d2.jpg)
@@ -67,7 +91,7 @@
     - ahmed
     - ![ahmed-pcb](ahmed-brd.jpg)
     - seif
-    <!-- - ![seif-pcb](seif-pcb.jpg) -->
+    - ![seif-pcb](seif-pcb2.jpg)
     - zidan
     - ![zidan-pcb](zidan-brd.jpg)
 - Girls
