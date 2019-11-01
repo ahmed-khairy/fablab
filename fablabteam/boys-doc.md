@@ -1,5 +1,35 @@
 # Boys documentations
-## Emad saqr - laser cutter
+## Anas hashim - Vinyl cutter
+- Multi Layer `vinyl cutter` - 30/9/2019
+- ![anas](anas-doc5.png)
+  - First of all, the design was made using `illustrator` program.
+  - ![anas](anas-doc1.jpg)
+  - Then export the vector as `PNG` image file.
+  - In order to make double layer sticker , I made the two parts separated because every part of the design will be printed with different color.
+  - ![anas](anas-doc2.png)
+  - ![anas](anas-doc3.jpg)
+  - Then, i used `inkscape` program to make a trace for each part of these parts.
+  - ![anas](anas-doc12.jpg)
+  - ![anas](anas-doc13.jpg)
+  - ![anas](anas-doc14.jpg)
+  - Then export them as `PNG` file.
+  - ![anas](anas-doc16.jpg)
+  - ![anas](anas-doc17.jpg)
+  - Upload these files as `PNG` image to the site `fabmodules.org`.
+  - ![anas](anas-doc6.jpg)
+  - ![anas](anas-doc7.jpg)
+  - Then use `camm` as output format ex. `File.camm`.
+  - ![anas](anas-doc8.jpg)
+  - The last option is the process, it will be `cut vinyl`.
+  - ![anas](anas-doc9.jpg)
+  - After setting these options, the site will generate value to cut depending on your choices.
+  - Then press on `calculate` then `save`, the file will be downloaded to my computer.
+  - ![anas](anas-doc11.jpg)
+  - Set the machine and the roll to print the design.
+  - We merged the two layers to stick them as one part using transportatino tape.
+  - ![anas](anas-doc4.jpg)
+
+##  Emad saqr - laser cutter
 - Installation steps
     - ![install1](install1.png)
     - ![install2](install2.png)
@@ -20,7 +50,7 @@
     - The home position for both is the top-left corner.
     - ![three](three.png)
 - Setting up an Object to be Cut
-    - Vector cutting is when the machine is tracing the shapes of the vectors cutting through the material. 
+    - Vector cutting is when the machine is tracing the shapes of the vectors cutting through the material.
     - If we want to cut shapes out of our material, this is the mode we want the laser to be in.
     - In order to the machine to cut an object out, we have to set the properties of that object to `No Fill = remove the fill of the object` and `Stroke Color = set the stroke color to black (RGB = #000)` and `Stroke Width = set the stroke width to “hairline”`
     - ![four](four.png)
